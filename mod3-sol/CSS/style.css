@@ -1,0 +1,94 @@
+nav {
+	background-color: #f3f222;
+}
+
+nav a{
+
+	font-size: 3em;
+}
+
+h1{
+	text-align: center;
+}
+
+div{
+	padding: 4px;
+}
+
+h2{
+	width: 100px;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #fe9797;
+}
+#nav-list a:hover {
+    color: #202020;
+    background-color: #fce29e;
+}
+.container{
+	margin-top: 100px;
+	box-shadow: 0 0 50px #0f5900;
+}
+
+.container-fluid{
+	margin:0;
+	padding: 0;		
+}
+
+.sec1{
+	background-color: #f2b945;
+	text-align: center;
+}
+
+.sec2{
+
+	text-align: center;
+	background-color: #F24545;
+}
+
+.sec3{
+	text-align: center;
+	background-color: #C4E842;
+}
+.white{
+	background-color: white;	
+}
+
+.dropdown-item{
+	font-size: 0.5em;
+	width: 100%;
+}
+
+.bg-light{
+	background-color: red;
+}
+
+li a{
+	text-align: center;
+	font-size: 1.2em;
+	color: black;
+}
+
+.navbar-brand{
+	font-size: 2em;
+	font-weight: bold;
+}
+.navbar-toggler>.close {
+    display:inline;
+}
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+    display:none;
+}
+
+.col-11 {
+	padding: 10px,10px,10px,10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media(max-width: 768px){
+.text-center{
+	margin-left: 38%;
+}
+}
